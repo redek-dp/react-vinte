@@ -1,72 +1,83 @@
-# React + TypeScript + Vite
+<img src="./public/vite.svg" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
+# REACT-VINTE
+
+``REACT-VINTE`` REACT + TYPESCRIPT + VITE...
+
+----------
+
+## LINK PAGES.DEV
+
+```bash
 https://react-vinte.pages.dev/
-
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+--------
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## LINK GITHUB PAGES
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+https://redek-dp.github.io/react-vinte/
 ```
+--------
+
+## NPM INSTALL
+
+```bash
+npm install
+```
+--------
+
+## NPM RUN BUILD
+
+```bash
+npm run build
+```
+--------
+
+## NPM RUN DEV
+
+```bash
+npm install && npm run dev
+```
+--------
+
+### DOAR COM
+
+[![DOAR COM](https://img.shields.io/badge/DOAR%20COM-PagBank-295.svg?logo=pagseguro&style=for-the-badge&logoColor=f5f5f5)](https://pag.ae/7Y3uUnhg8)
+
+--------
+
+### CONECTE-SE COM NÓS:
+
+[<img height="30" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="davidsonbpe | YouTube" />][youtube]
+[<img height="30" src="https://img.shields.io/badge/DAV7.STORE-555?style=for-the-badge&logo=cloudways&logoColor=white" alt="DAV7.STORE" />][dav7]
+[<img height="30" src="https://img.shields.io/badge/davidsonbpe-666?style=for-the-badge&logo=dash&logoColor=fff" alt="davidsonbpe" />][davidsonbpe]
+[<img height="30" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="davidsonbpe | Instagram" />][instagram]
+[<img height="30" src="https://img.shields.io/badge/CodePen-003333?style=for-the-badge&logo=c&logoColor=white" alt="davidsonbpe | CodePen" />][CodePen]
+[<img height="30" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="davidsonbpe | Facebook" />][facebook]
+[<img height="30" src="https://img.shields.io/badge/GitHub-003333?style=for-the-badge&logo=github&logoColor=white" alt="davidsonbpe | GitHub" />][github]
+[<img height="30" src="https://img.shields.io/badge/huggingface-6C55C1?style=for-the-badge&logo=huggingface&logoColor=75CB22" alt="Kexel | HuggingFace" />][huggingface]
+[<img height="30" src="https://img.shields.io/badge/stackblitz-A89BDA?style=for-the-badge&logo=stackblitz&logoColor=fff" alt="StackBlitz" />][stackblitz]
+[<img height="30" src="https://img.shields.io/badge/Pinterest-C2464B?style=for-the-badge&logo=Pinterest&logoColor=white" alt="Pinterest" />][pinterest]
+[<img height="30" src="https://img.shields.io/badge/Twitter-222?style=for-the-badge&logo=x&logoColor=white" alt="davidsonbpe | Twitter" />][twitter]
+<a href="mailto:dev7.capital366@passinbox.com" alt="Email">
+<img height="30" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=Minutemailer&logoColor=white" /></a>
+
+<br />
+
+<a href="https://dav7.pages.dev/" align="right" alt="Visitor count">
+<img height="30" src="https://raw.githubusercontent.com/davserv/d-framework/refs/heads/img-iso/count.svg" /></a>
+
+<br />
+
+[dav7]: https://dav7.pages.dev/
+[davidsonbpe]: https://davidsonbpe.blogspot.com/
+[youtube]: https://www.youtube.com/channel/UCHqvw9v2Fp6o006lUskoigg/
+[instagram]: https://www.instagram.com/davidsonbpe/
+[facebook]: https://www.facebook.com/decomrradio/
+[CodePen]: https://codepen.io/davidsonbpe/
+[github]: https://github.com/davidsonbpe/
+[huggingface]: https://huggingface.co/kexel
+[stackblitz]: https://stackblitz.com/@redek-dp
+[pinterest]: https://br.pinterest.com/davidsonbpe/
+[twitter]: https://twitter.com/davidsonbpe
